@@ -1,30 +1,57 @@
 import css from 'styled-jsx/css';
 
 export default css`
-  .navbar {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 40px;
-    z-index: 1;
-    text-align: center;
 
-    &.is-transparent {
-      background: none;
+  .aa{
+    .nav2 {
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      overflow: hidden;
+      background-color: #8239BF;
+      position: sticky;
+      top: 0;
     }
 
-    :global(.navbar-item) {
-      padding-left: 20px;
-      padding-right: 20px;
-      font-family: Poppins;
+    .nav2LiLeft{
+      float: left;
+    }
+    
+    .nav2Li{
+      float: left;
+    }
+    
+    .a2{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 16px;
+      text-decoration: none;
       font-size: 20px;
-      font-weight: 500;
-      line-height: 32px;
-      color: #595959;
+      font-family: monospace;
     }
 
-    :global(.navbar-item.active) {
-      border-bottom: 4px solid #595959;
+    .a2123{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 6px 16px; 
+      text-decoration: none;
+      font-size: 35px;
+      font-family: monospace; 
+    }
+    
+    .a2.right {
+      float: left;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .a2.right, .nav2Li{
+
+        float: none;
+      }
     }
   }
+    
+  
 `;

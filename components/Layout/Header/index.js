@@ -3,42 +3,62 @@ import Link from 'next/link';
 import classnames from 'classnames';
 import ActiveLink from 'components/ActiveLink';
 import styles from './styles';
-import LogoDark from 'assets/Logo.svg';
 
 class Header extends Component {
   render() {
     return (
-      <div className="container">
-        <nav className={classnames('navbar', 'is-transparent')}>
-          <div className="navbar-brand">
-            <Link href="/">
-              <a className="navbar-item">
-                <img
-                  src={LogoDark}
-                  alt="LavaX Technologies Sdn Bhd"
-                  width="112"
-                  height="28"
-                />
-              </a>
-            </Link>
-            <div className="navbar-burger burger">
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div className={'navbar-menu'}>
-            <div className="navbar-end">
-              <ActiveLink
-                href="/test"
-                activeClass="active"
-                className="navbar-item"
-                alt="test page"
-                title="Test Page"
-              />
-            </div>
-          </div>
-        </nav>
+      <div className="aa">
+            <ul className ="nav2">
+              <li className = "nav2LiLeft">
+                <a className = "a2123">
+
+                    Fury
+                </a>
+              </li>
+              
+              <li className = "nav2Li">
+                <a className = "a2">
+                  HOME
+                </a>
+              </li>
+              
+              <li className = "nav2Li">
+                <a className = "a2">
+                  DEMO
+                </a>
+              </li>
+
+              <li className = "nav2Li">
+                <a className = "a2" class = "right">
+                  HEADERS
+                </a>
+              </li>
+
+              <li className = "nav2Li">
+                <a className = "a2" class = "right">
+                  PAGES
+                </a>
+              </li>
+
+              <li className = "nav2Li">
+                <a className = "a2" class = "right">
+                  ELEMENTS
+                </a>
+              </li>
+
+              <li className = "nav2Li">
+                <a className = "a2" class = "right">
+                  BLOG
+                </a>
+              </li>
+
+              <li className = "nav2Li" >
+                <a className = "a2" class = "right">
+                  CONTACT
+                </a>
+              </li>
+          </ul>
+        
         <style jsx>{styles}</style>
       </div>
     );
