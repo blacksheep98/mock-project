@@ -44,10 +44,6 @@ export default css`
     margin: auto;
   }
 
-  .bodyy{
-    background: #edeff2;
-  }
-
   .ulStyle{
     text-align: center;
   }
@@ -66,16 +62,19 @@ export default css`
     align: center;
     
     display: inline-block;
+    
   }
 
   .liMidBody{
     background: white;
     display: inline;
-    padding: 5px 20px;
+    padding: 10px 20px;
     color: white;
+    border-radius: 8px;
+    border:0.1px solid black;
 
     &.liMidBody:hover{
-      background: lightblue;
+      background: #007DFF;
       border-radius: 8px;
     }
 

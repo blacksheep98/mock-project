@@ -17,10 +17,6 @@ export default css`
       float: left;
     }
     
-    .nav2Li{
-      float: left;
-    }
-    
     .a2{
       display: block;
       color: white;
@@ -31,7 +27,7 @@ export default css`
       font-family: monospace;
     }
 
-    .a2123{
+    .aFury{
       display: block;
       color: white;
       text-align: center;
@@ -41,15 +37,15 @@ export default css`
       font-family: monospace; 
     }
     
-    .a2.right {
-      float: left;
-    }
-    
     @media screen and (max-width: 600px) {
-      .a2.right, .nav2Li{
+      .aFury, .a2, .nav2LiLeft{
 
         float: none;
       }
+    }
+
+    .navbar-burger burger{
+      color: white;
     }
   }
     
