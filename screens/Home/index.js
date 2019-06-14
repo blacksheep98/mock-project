@@ -4,7 +4,6 @@ import _ from 'lodash';
 
 import Logo from "./image/1_1.jpg";
 import Logo2 from "./image/1_3.jpg";
-import { black } from 'ansi-colors';
 
 const array = [
   {title: <img src={Logo} style = {{width: 350, height: 250}}/>},

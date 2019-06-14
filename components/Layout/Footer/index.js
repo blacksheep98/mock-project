@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import styles from './styles';
-import { black } from 'ansi-colors';
 
 export default class Footer extends PureComponent {
   render() {
@@ -10,7 +9,7 @@ export default class Footer extends PureComponent {
           <div className="row">
             <div className="column">
               <p className = "columnStyle1">
-                <b>Fury</b>
+                <h2><b>Fury</b></h2>
               </p>
 
               <br />
@@ -20,6 +19,20 @@ export default class Footer extends PureComponent {
                 they option congue is nihil imper per tem por <br />
                 legere is me velit doming vulputate.
               </p>
+
+              <br />
+              
+              <form className = "form-style">
+                <span>
+                  {/* <i class="material-icons">email</i> */}
+                </span>
+                
+                <input className = "input-style" placeholder = "Enter your email" />
+
+                <button className = "form-button-style">
+                  <a> => </a>
+                </button>
+              </form>
             </div>
 
             <div className="column">
@@ -51,7 +64,7 @@ export default class Footer extends PureComponent {
                 </li>
               </ul>
             </div>
-            
+
             <div className="column">
               <p className = "columnStyle2">
                 Contact Info
@@ -75,14 +88,6 @@ export default class Footer extends PureComponent {
 
             </div>
           </div>
-        </div>
-
-        <br />
-
-        <div className = "copyRight">
-          <p className = "copyRightP">
-            Copyright 2017 - Created by EchoTheme
-          </p>
         </div>
         <style jsx>{styles}</style>
       </footer>
