@@ -21,7 +21,7 @@ class Header extends Component {
                   HOME
                 </a>
               </li>
-              
+
               <li className = "nav2Li">
                 <a className = "a2">
                   DEMO
@@ -29,31 +29,31 @@ class Header extends Component {
               </li>
 
               <li className = "nav2Li">
-                <a className = "a2" class = "right">
-                  HEADERS
+                <a className = "a2">
+                  Header
                 </a>
               </li>
 
               <li className = "nav2Li">
-                <a className = "a2" class = "right">
+                <a className = "a2">
                   PAGES
                 </a>
               </li>
 
               <li className = "nav2Li">
-                <a className = "a2" class = "right">
+                <a className = "a2">
                   ELEMENTS
                 </a>
               </li>
-
+              
               <li className = "nav2Li">
-                <a className = "a2" class = "right">
+                <a className = "a2">
                   BLOG
                 </a>
               </li>
-
-              <li className = "nav2Li" >
-                <a className = "a2" class = "right">
+              
+              <li className = "nav2Li">
+                <a className = "a2">
                   CONTACT
                 </a>
               </li>

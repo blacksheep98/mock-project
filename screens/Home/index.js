@@ -14,7 +14,7 @@ const array = [
   {title: <img src={Logo} style = {{width: 350, height: 250}}/>},
   {title: <img src={Logo2} style = {{width: 350, height: 250}}/>},
   {title: <img src={Logo} style = {{width: 350, height: 250}}/>},
-  {title: <img src={Logo} style = {{width: 350, height: 250}}/>},
+  {title: <img src={Logo2} style = {{width: 350, height: 250}}/>},
   {title: <img src={Logo} style = {{width: 350, height: 250}}/>},
 ]
 
