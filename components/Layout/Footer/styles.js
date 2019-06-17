@@ -52,21 +52,6 @@ export default css`
       padding: 5px 20px;
       color: black;
     }
-
-    .LineFooter{
-      padding-top: 0px;
-      padding-left: 69rem;
-    }
-
-    .footerLine{
-      width: 4%;
-      border: 1px solid black
-    }
-
-    .footerLine2{
-      width: 4%;
-      border: 1px solid black
-    }
   }
 
   .test{
@@ -74,40 +59,67 @@ export default css`
     font-family: monospace;
   }
 
-  .column {
+  .column{
     float: left;
     width: 33.33%;
     padding: 10px;
+    padding-left: 80px;
+  }
 
-    @media only screen and (min-width: 768px) {
-
-      .mq{
-        font-size: 14px;
-        width: 50%;
-        float: left;
-      }
-      
+  @media screen and (max-width: 1086px) {
+    .column{
+      font-size: 18px;
+      width: 50%;
+      margin-top: 0;
+      padding: 30px;
+      padding-left: 80px;
     }
+  }
 
-    @media only screen and (min-width: 1089px) {
+  @media screen and (max-width: 768px) {
 
-      .mq{
-        font-size: 16px;
-        width: 33.3%;
-        float: left;
-      }
-    }   
+    .columnStyle1{
+      color: red;
+    }
+    .column{
+      font-size: 20px;
+      width: 100%;
+      margin-top: 0;
+      padding: 30px;
+      padding-left: 80px;
+    }
   }
 
   .row:after {
     content: "";
     display: table;
     clear: both;
+    
   }
 
   .columnStyle1{
     font-size: 25px;
     color: #1382FF;
+  }
+  
+  .form-style{
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    background: white;
+  }
+
+  .input-style{
+    border: none;
+    padding-left: 5px;
+    font-family: monospace;
+  }
+
+  .form-button-style{
+    padding: 5px;
+    padding-left: 40px;
+    background: transparent;
+    border: none;
   }
 
   .columnStyle2{
@@ -122,12 +134,4 @@ export default css`
     margin-right: auto;
   }
 
-  .copyRight{
-    background-color: white;
-    padding: 20px 10px;
-  }
-
-  .copyRightP{
-    text-align: center;
-  }
 `;
