@@ -16,7 +16,7 @@
     "classnames": "^2.2.6",
     "lodash": "^4.17.10",
     "next": "^7.0.2",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "nprogress": "^0.2.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
